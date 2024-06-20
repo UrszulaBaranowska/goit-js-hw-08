@@ -69,8 +69,8 @@ const galleryElements = images
   .map(
     (element) =>
       `<li class="gallery-item">
-       <a class="gallery-link" href="${element.original}">
-       <img class="gallery-image" src="${element.preview}" 
+       <a href="${element.original}">
+       <img src="${element.preview}" 
        data-source="${element.original}" 
        alt="${element.description}" width ="360" height ="200"></a></li>`
   )
